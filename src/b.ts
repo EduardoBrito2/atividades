@@ -1,3 +1,6 @@
+//Definição de preço, incluindo centavos, de mercadorias de uma loja
+//conjunto dos Reais
+
 interface Item {
     preco: number;
     quantidade: number;
