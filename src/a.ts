@@ -1,5 +1,5 @@
 // Contagem do número de linhas de um arquivo de log;
-//Conjunto dos Números Inteiros.
+//Conjunto dos Números Naturais.
 const fs = require('fs');
 
 function contarLinhasLog(nomeArquivo:any):any {
