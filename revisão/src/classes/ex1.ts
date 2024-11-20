@@ -8,10 +8,12 @@ class Filme{
     }
 
     print(){
-        console.log(`O filme ${this.titulo}, tem uma duração de ${this.duracao}`)
+        console.log(`O filme ${this.titulo}, tem uma duração de ${this.duracao} min`)
     }
 }
 
 const ce = new Filme('Casa monstro',150);
+const gh = new Filme('Matix',116)
 
-ce.print()
+ce.print();
+gh.print();
